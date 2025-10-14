@@ -21,7 +21,7 @@ jobs:
     env:
       # NEED TO BE CONFIGURED EACH PROJECT
       UPSTREAM_REPO: "app-sre/github-mirror"
-      BRANCH: "main"
+      BRANCH: "master"
       RUNNER_DISPATCH_TIMEOUT: 3600 # 1 hour
       FILTER_DISPATCH_TIMEOUT: 600 # 10 minutes
       MAX_CONCURRENT: 10
